@@ -1,0 +1,140 @@
+/* src/App.css */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #94ee1e;
+  border-radius: 5px;
+  background-color: #449177;
+}
+
+.header {
+  text-align: center;
+  background-color: #4e479c;
+}
+
+.header-title {
+  color: #ff5733; /* Cambia questo colore come preferisci */
+  background-color: #007bff;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input, .form-control select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #772727;
+  border-radius: 4px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.summary {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #276370;
+}
+
+.summary h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.summary div {
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+.transaction-list {
+  margin-top: 20px;
+}
+
+.transaction-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transaction-list h3 {
+  margin-bottom: 10px;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  background-color: #f1eff7;
+}
+
+.transaction-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-amount {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.transaction-amount.positive {
+  color: green;
+}
+
+.transaction-amount.negative {
+  color: red;
+}
+
+.transaction-description {
+  font-size: 1em;
+  color: #333;
+}
+
+.transaction-date {
+  font-size: 0.85em;
+  color: #555;
+}
+
+.add-button {
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+}
